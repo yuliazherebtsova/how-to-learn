@@ -7,4 +7,5 @@
   flex-flow: row;
   align-items: center;
   background-color: #f2f2f2;
+  overflow: hidden;
 }

@@ -4,6 +4,10 @@
 
 /* page */
 @import url('../blocks/page/page.css');
+@import url('../blocks/page/__header/page__header.css');
+@import url('../blocks/page/__content/page__content.css');
+@import url('../blocks/page/__section/page__section.css');
+@import url('../blocks/page/__footer/page__footer.css');
 
 /* link */
 @import url('../blocks/link/link.css');
@@ -25,10 +29,6 @@
 @import url('../blocks/header/__main-illustration/header__main-illustration.css');
 @import url('../blocks/header/__square-pic/header__square-pic.css');
 @import url('../blocks/header/__link/header__link.css');
-
-/* content */
-@import url('../blocks/content/content.css');
-@import url('../blocks/content/__section/content__section.css');
 
 /* section-title */
 @import url('../blocks/section-title/section-title.css');
@@ -128,6 +128,9 @@
 @import url('../blocks/footer/__column_heading/footer__column_heading.css');
 @import url('../blocks/footer/__column_links/footer__column_links.css');
 @import url('../blocks/footer/__social-icon/footer__social-icon.css');
+@import url('../blocks/footer/__social-icon/_name/footer__social-icon_name_fb.css');
+@import url('../blocks/footer/__social-icon/_name/footer__social-icon_name_vk.css');
+@import url('../blocks/footer/__social-icon/_name/footer__social-icon_name_inst.css');
 @import url('../blocks/footer/__column_link/footer__column_link.css');
 
 /* rotation */

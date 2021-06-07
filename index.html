@@ -13,7 +13,7 @@
 </head>
 
 <body class="page">
-  <header class="header">
+  <header class="header page__header">
     <a class="logo logo_place_header"></a>
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
@@ -23,7 +23,7 @@
     <div class="header__square-pic rotation"></div>
   </header>
   <main class="content">
-    <section class="description">
+    <section class="description page__section">
       <div class="two-columns">
         <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <div class="two-columns__main-text">
@@ -39,7 +39,7 @@
         </div>
       </div>
     </section>
-    <section class="techniques content__section">
+    <section class="techniques page__section">
       <h2 id="techniques" class="section-title techniques__title">Техники обучения</h2>
       <p class="section-subtitle">Пять практик от Барбары Оакли</p>
       <ul class="cards list">
@@ -73,7 +73,7 @@
         </li>
       </ul>
     </section>
-    <section class="video">
+    <section class="video page__section">
       <h2 class="section-title video__title">Видео нa TED</h2>
       <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
       <ul class="video__iframes list">
@@ -85,7 +85,7 @@
         </li>
       </ul>
     </section>
-    <section class="oackley">
+    <section class="oackley page__section">
       <div class="two-columns">
         <h2 class="two-columns__brief">История Барбары Оакли</h2>
         <div class="two-columns__main-text">
@@ -98,12 +98,12 @@
         </div>
       </div>
     </section>
-    <section class="feynman">
+    <section class="feynman page__section">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <p class="feynman__subtitle">Выучить и не забыть</p>
       <a href="https://lifehacker.ru/metod-fejnmana/" class="link feynman__link" target="_blank">Подробнее &rarr;</a>
     </section>
-    <section class="digits">
+    <section class="digits page__section">
       <h2 class="section-title digits__title">Цифры и факты</h2>
       <p class="section-subtitle">Про учёбу и мозг</p>
       <ul class="table list">
@@ -143,7 +143,7 @@
         </li>
       </ul>
     </section>
-    <section class="khan">
+    <section class="khan page__section">
       <div class="khan__container">
         <p class="khan__author">Салман Хан</p>
         <h2 class="khan__title">Весь мир — школа</h2>
@@ -164,7 +164,7 @@
         </div>
       </div>
     </section>
-    <section class="kaufman">
+    <section class="kaufman page__section">
       <h2 class="section-title section-title_theme_dark kaufman__title">Принципы обучения</h2>
       <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
       <ul class="table table_theme_dark list">
@@ -211,7 +211,7 @@
       </ul>
       <div class="kaufman__triangle rotation"></div>
     </section>
-    <section class="resources">
+    <section class="resources page__section">
       <h2 class="section-title resources__title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <div class="resources__logo-zone">
@@ -234,7 +234,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer page__footer">
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
         <a class="logo logo_place_footer"></a>
@@ -253,23 +253,17 @@
         <ul class="list">
           <li class="footer__column_links">
             <a href=# class="link footer__column_link">
-              <img class="footer__social-icon" src="./images/facebook_white.svg"
-                alt="Круглая иконка Facebook английская буква f">
-              Facebook
+              <div class="footer__social-icon footer__social-icon_name_fb"></div>Facebook
             </a>
           </li>
           <li class="footer__column_links">
             <a href=# class="link footer__column_link">
-              <img class="footer__social-icon" src="./images/vk_white.svg"
-                alt="Круглая иконка ВКонтакте буквсочетание vk">
-              ВКонтакте
+              <div class="footer__social-icon footer__social-icon_name_vk"></div>ВКонтакте
             </a>
           </li>
           <li class="footer__column_links">
             <a href=# class="link footer__column_link">
-              <img class="footer__social-icon" src="./images/instagram_white.svg"
-                alt="Круглая иконка Instagram фотокамера">
-              Instagram
+              <div class="footer__social-icon footer__social-icon_name_inst"></div>Instagram
             </a>
           </li>
         </ul>
